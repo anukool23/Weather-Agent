@@ -1,6 +1,6 @@
-# 🌟 Cool-Agent
+# 🌟 Weather Assistant
 
-**Cool-Agent** is a command-line AI assistant that uses OpenAI's GPT model to understand and respond to user queries. It can also fetch real-time weather data using the Weather API. The assistant follows a structured plan-act-observe approach to deliver accurate and meaningful responses.
+**Weather Assistant** is a command-line AI assistant that uses OpenAI's GPT model to understand and respond to user queries. It can also fetch real-time weather data using the Weather API. The assistant follows a structured plan-act-observe approach to deliver accurate and meaningful responses.
 
 ---
 
@@ -24,8 +24,8 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd Cool-Agent
+   git clone <https://github.com/anukool23/Weather-Agent>
+   cd Weather Assistant
    ```
 
 2. **Install dependencies:**
@@ -68,7 +68,7 @@
 ## 🗂️ Project Structure
 
 ```bash
-Cool-Agent/
+Weather Assistant/
 ├── index.js            # Main application logic
 ├── Dockerfile          # Docker container configuration
 ├── docker-compose.yml  # Docker Compose setup
@@ -90,7 +90,7 @@ The following environment variables must be defined:
 
 ## 🐳 Docker Support
 
-You can run Cool-Agent using Docker:
+You can run Weather Assistant using Docker:
 
 1. **Build the image:**
    ```bash

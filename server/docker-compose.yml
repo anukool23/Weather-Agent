@@ -1,7 +1,20 @@
+# For cmd
+# version: '3.8'
+# services:
+#   assistant:
+#     build: .
+#     env_file: .env
+#     stdin_open: true
+#     tty: true
+
+
+# For API
 version: '3.8'
+
 services:
-  assistant:
+  app:
     build: .
-    env_file: .env
-    stdin_open: true
-    tty: true
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env

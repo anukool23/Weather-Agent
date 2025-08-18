@@ -13,6 +13,8 @@ RUN npm install
 # Copy source code
 COPY . .
 
+# Expose port 3000 inside the container
+EXPOSE 3000
 
-# Expose terminal (no ports required for CLI)
-CMD [ "node", "server.js"]
+# Run the server
+CMD [ "node", "server.js" ]

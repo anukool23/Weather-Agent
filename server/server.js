@@ -4,10 +4,12 @@ import OpenAI from "openai";
 import axios from "axios";
 import dotenv from "dotenv";
 import { SYSTEM_PROMPT } from "./prompt.js";
+import cors from "cors";
 dotenv.config();
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;

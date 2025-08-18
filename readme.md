@@ -1,5 +1,7 @@
 # 🌟 Weather Assistant — Full‑Stack (React 19 + Node 20) with Docker
 
+For deme :- https://weatherbot23.netlify.app/
+
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React 19" />
   <img src="https://img.shields.io/badge/TailwindCSS-v4-38B2AC?logo=tailwind-css&logoColor=white" alt="Tailwind v4" />

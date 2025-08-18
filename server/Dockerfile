@@ -15,4 +15,4 @@ COPY . .
 
 
 # Expose terminal (no ports required for CLI)
-CMD [ "node", "index.js"]
+CMD [ "node", "server.js"]
